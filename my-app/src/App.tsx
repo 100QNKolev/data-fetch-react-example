@@ -16,7 +16,7 @@ function App() {
         setUsers(data);
         setError(null);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'An unexpected error occurred');
+        setError('Error loading users.');
       } finally {
         setLoading(false);
       }
