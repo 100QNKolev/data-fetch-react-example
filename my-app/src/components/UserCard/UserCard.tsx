@@ -1,6 +1,6 @@
 import React from 'react';
 import './UserCard.css';
-import { User } from '../types/User';
+import { User } from '../../types/User';
 
 interface UserCardProps {
   user: User;
