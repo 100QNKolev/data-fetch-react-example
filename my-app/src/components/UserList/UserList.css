@@ -1,0 +1,20 @@
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.user-list__loading,
+.user-list__error {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.user-list__error {
+  color: #dc3545;
+} 

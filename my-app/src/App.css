@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.app__loading,
+.app__error {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.app__error {
+  color: #dc3545;
+}
