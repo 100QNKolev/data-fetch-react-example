@@ -1,0 +1,33 @@
+.user-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.user-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.user-card__name {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.user-card__email {
+  margin: 4px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.user-card__company {
+  margin: 4px 0;
+  color: #888;
+  font-size: 0.9rem;
+} 
